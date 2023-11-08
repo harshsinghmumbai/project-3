@@ -1,4 +1,4 @@
-const Game_page1 = () => {
+const Game_Play = () => {
   return (
     <>
       <div className=" w-[80%] h-80 flex ">
@@ -22,4 +22,4 @@ const Game_page1 = () => {
   );
 };
 
-export default Game_page1;
+export default Game_Play;

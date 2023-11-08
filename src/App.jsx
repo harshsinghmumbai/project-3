@@ -1,4 +1,4 @@
-import Game_page1 from "./Components/Game_page1";
+import Game_page1 from "./Components/Game_Play";
 
 const App = () => {
   return (
