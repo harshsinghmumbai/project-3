@@ -12,7 +12,7 @@ const Game_page1 = () => {
         <div className="w-3/6">
           <p className="w-full h-[9rem] mt-20 ">
             <h1 className="text-[4.5rem] font-bold uppercase">dice game</h1>
-            <button className="bg-black text-white ml-[18rem] w-[6rem] h-[1.75rem] rounded-md text-sm">
+            <button className="bg-black text-white ml-[18rem] w-[6rem] h-[1.75rem] rounded-md text-sm hover:bg-gray-700">
               Play now
             </button>
           </p>
