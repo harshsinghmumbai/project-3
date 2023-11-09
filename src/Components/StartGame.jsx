@@ -10,19 +10,42 @@ const StartGame = () => {
 
         {/* ----------------------Select Number----------------------- */}
         <div className="w-[18rem] space-x-4 mt-2 ">
-          <p className="border-[1px] border-black p-1 pl-[0.6rem]  w-8 h-8 inline-block">1</p>
-          <p className="border-[1px] border-black p-1 pl-[0.6rem]  w-8 h-8 inline-block">2</p>
-          <p className="border-[1px] border-black p-1 pl-[0.6rem]  w-8 h-8 inline-block">3</p>
-          <p className="border-[1px] border-black p-1 pl-[0.6rem]  w-8 h-8 inline-block">4</p>
-          <p className="border-[1px] border-black p-1 pl-[0.6rem]  w-8 h-8 inline-block">5</p>
-          <p className="border-[1px] border-black p-1 pl-[0.6rem]  w-8 h-8 inline-block">6</p>
+          <p className="border-[1px] border-black p-1 pl-[0.6rem]  w-8 h-8 inline-block">
+            1
+          </p>
+          <p className="border-[1px] border-black p-1 pl-[0.6rem]  w-8 h-8 inline-block">
+            2
+          </p>
+          <p className="border-[1px] border-black p-1 pl-[0.6rem]  w-8 h-8 inline-block">
+            3
+          </p>
+          <p className="border-[1px] border-black p-1 pl-[0.6rem]  w-8 h-8 inline-block">
+            4
+          </p>
+          <p className="border-[1px] border-black p-1 pl-[0.6rem]  w-8 h-8 inline-block">
+            5
+          </p>
+          <p className="border-[1px] border-black p-1 pl-[0.6rem]  w-8 h-8 inline-block">
+            6
+          </p>
 
-          <p className="flex justify-end mt-6 font-semibold mr-[1rem]">Select Number</p>
+          <p className="flex justify-end mt-6 font-semibold mr-[1rem]">
+            Select Number
+          </p>
         </div>
       </div>
 
       <div className="">
-        
+        <img
+          src="./src/assets/cubes.png"
+          alt="cubes"
+          className="w-[8.2rem] h-[8.2rem]"
+        />
+        <p className="inline-block font-semibold text-sm">Click on Dice to roll</p>
+        <br />
+        <button className="border-[1px] border-black text-black p-1 text-base rounded-md">Reset Score</button>
+        <br />
+        <button className="border-[1px] border-black text-white bg-black p-1 text-base rounded-md">Total Score</button>
       </div>
     </>
   );
