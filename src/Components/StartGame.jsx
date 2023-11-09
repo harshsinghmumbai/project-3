@@ -20,6 +20,10 @@ const StartGame = () => {
           <p className="flex justify-end mt-6 font-semibold mr-[1rem]">Select Number</p>
         </div>
       </div>
+
+      <div className="">
+        
+      </div>
     </>
   );
 };
