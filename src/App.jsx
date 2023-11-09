@@ -1,14 +1,15 @@
 import { useState } from "react";
- import Game_Play from './Components/Game_Play'
+import Game_Play from "./Components/Game_Play";
+import StartGame from "./Components/StartGame";
 
 const App = () => {
-  // const [isGamestarted, setisGamestarted] = useState(flase);
+  const [isGamestarted, setisGamestarted] = useState(true);
+
+  const togglegameplay = () => {
+    setisGamestarted((prev) => !prev);
+  };
   return (
-    <>
-      <main className="flex justify-center items-center h-screen">
-        <Game_Play />
-      </main>
-    </>
+    <>{isGamestarted ? <Game_Play toggle={togglegameplay} /> : <StartGame />}</>
   );
 };
 
