@@ -1,14 +1,18 @@
 const StartGame = () => {
   return (
     <>
-      <div className="border-2 border-black mt-7 w-[95%] m-auto">
+      <div className="border-2 border-black mt-7 w-[95%] m-auto flex justify-between">
 
-        {/* ----------------------Score Area-------------------- */}
-        <div className="border-2 border-black w-[5rem] h-[6rem]">
-          <h1 className="text-5xl font-normal inline-block m-auto">0</h1>
-          <p className="w-full text-base">TotalScore</p>
+        {/* ---------------------Total Score-------------------- */}
+        <div className="w-[7rem] h-[6rem] p-1">
+          <h1 className="text-6xl font-[400] inline-block ml-6">0</h1>
+          <p className="w-full text-base mt-1 ml-1">Total Score</p>
         </div>
-        <div className=""></div>
+
+        {/* ----------------------Select Number----------------------- */}
+        <div className="border-2 border-black h-full w-28">
+
+        </div>
       </div>
     </>
   );
