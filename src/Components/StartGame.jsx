@@ -35,7 +35,7 @@ const StartGame = () => {
         </div>
       </div>
 
-      <div className="">
+      <div className="border-2 border-black w-32 ">
         <img
           src="./src/assets/cubes.png"
           alt="cubes"
@@ -45,7 +45,7 @@ const StartGame = () => {
         <br />
         <button className="border-[1px] border-black text-black p-1 text-base rounded-md">Reset Score</button>
         <br />
-        <button className="border-[1px] border-black text-white bg-black p-1 text-base rounded-md">Total Score</button>
+        <button className="border-[1px] border-black text-white bg-black p-1 text-base rounded-md mt-2">Total Score</button>
       </div>
     </>
   );
