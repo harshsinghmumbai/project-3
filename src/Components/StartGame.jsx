@@ -35,17 +35,23 @@ const StartGame = () => {
         </div>
       </div>
 
-      <div className="border-2 border-black w-32 ">
+      <div className=" w-32 mt-[7.75rem] ml-[35rem]">
         <img
           src="./src/assets/cubes.png"
           alt="cubes"
-          className="w-[8.2rem] h-[8.2rem]"
+          className="w-[9.2rem] h-[9rem]"
         />
-        <p className="inline-block font-semibold text-sm">Click on Dice to roll</p>
+        <p className="inline-block font-semibold text-sm mt-2 mb-2">
+          Click on Dice to roll
+        </p>
         <br />
-        <button className="border-[1px] border-black text-black p-1 text-base rounded-md">Reset Score</button>
+        <button className="border-[1px] border-black text-black p-1 text-base rounded-md ml-4">
+          Reset Score
+        </button>
         <br />
-        <button className="border-[1px] border-black text-white bg-black p-1 text-base rounded-md mt-2">Total Score</button>
+        <button className="border-[1px] border-black text-white bg-black p-1 text-base rounded-md mt-2 ml-5">
+          Total Score
+        </button>
       </div>
     </>
   );
